@@ -1,0 +1,87 @@
+\documentclass{CRPITStyle}
+\usepackage[T1]{fontenc}
+\usepackage[authoryear]{natbib}
+\usepackage[ngerman]{babel}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[utf8x]{inputenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{algorithmicx}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsmath,amssymb,amstext,mathabx}
+\usepackage{amsthm,lipsum}
+\usepackage{amsthm}
+\usepackage{appendix}
+\usepackage{caption}
+\usepackage{diagbox}
+\usepackage{enumitem}
+\usepackage{epsfig}   % Packages to use if you wish
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{lmodern}
+\usepackage{lscape}   %
+\usepackage{mathabx}
+\usepackage{mathtools}
+\usepackage{multicol}
+\usepackage{parcolumns}
+\usepackage{pdfpages}
+\usepackage{pgfplotstable}
+\usepackage{pstricks-add}
+\usepackage{relsize}
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+\usepackage{verbatim}
+\definecolor{jwbluedark}{HTML}{4f81bd}
+\definecolor{jwbluelight}{HTML}{dbe5f1}
+\definecolor{orange}{rgb}{1,0.5,0}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\TODO}[1]{\ifture\colorbox{red}{TODO} \fi}
+\newcommand{\del}{\partial}
+\newcommand{\la}{\langle}
+\newcommand{\mybox}[1]{\par\noindent\colorbox{jwbluelight}{\parbox{\dimexpr\textwidth-2\fboxsep\relax}{#1}}}
+\newcommand{\rarr}{\rightarrow}
+\newcommand{\ra}{\rangle}
+\renewcommand{\cite}{\citep}
+\hyphenation{roddick}
+
+\begin{document}
+
+\title{Add Title here}
+\author{Christoph M. Hoeppke$^{1,2}$}
+\affiliation{
+    $^1$ Department for applied mathematics and theoretical physics\\
+    University of Cambridge,\\
+    Cambridge, United Kingdom,\\
+    Email:~{\tt cmh227@cam.ac.uk}\\[0.245cm]
+    $^2$ Department for applied and numerical analysis
+    TU Dortmund University\\
+    Dortmund, Germany\\
+    Email:~{\tt christoph.hoeppke@tu-dortmund.de}
+}
+
+\maketitle
+\begin{abstract}
+    Add Abstract here.
+\end{abstract}
+\vspace{.254cm}
+
+\noindent {\em Keywords:} As required..
+
+\section{Introduction}
+\section{Heading Level 1}
+\subsection{Heading Level 2}
+\subsubsection{Heading Level 3}
+%How to add figures
+\begin{figure}[htb]
+\fbox{\parbox[b]{.99\linewidth}{
+\vskip 0.5cm
+\centerline{Figure Content}
+\vskip 0.5cm}}
+\caption{\protect\label{xyz}  Caption}
+\end{figure}
+
+\end{document}
+
